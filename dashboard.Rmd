@@ -18,10 +18,10 @@ library(plotly)
 library(DT)
 
 
-my_data <- read.csv("MADRS_Longitudinally_20230711.csv")
-my_data <- as.data.frame(my_data)
-my_data$site <- stringr::str_extract(my_data$ID, "^.{2}")
-my_data <- my_data %>% filter(!grepl("CU", my_data$site))
+madrs_data <- read.csv("MADRS_Longitudinally_20230711.csv")
+madrs_data <- as.data.frame(my_data)
+madrs_data$site <- stringr::str_extract(my_data$ID, "^.{2}")
+madrs_data <- my_data %>% filter(!grepl("CU", my_data$site))
 
 
 df = data.frame(select(my_data, as.name("ID")), 
