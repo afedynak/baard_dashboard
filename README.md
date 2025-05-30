@@ -11,18 +11,18 @@ https://reporter.nih.gov/search/Ot-rVrV750CHAHTHP7az_A/project-details/10954667
 
 The tool is under active development. If you have questions please open github issue or email Amber.Fedynak@camh.ca.
 
-## Dashboard Code Repository
+# Dashboard Code Repository
 
 An interactive dashboard used to support decision making in the development and evaluation of the BAARD tool.
 
 🔗 https://github.com/afedynak/baard_dashboard
 
-## Data Modelling Code Repository
+# Data Modelling Code Repository
 This repository contains scripts for implementing modelling approaches for the BAARD project.
 
 🔗 https://github.com/afedynak/baard_modelling
 
-## Data Analysis Code Repository
+# Data Analysis Code Repository
 
 All scripts and code utilized in the processing, harmonization, and analysis of multi-modal datasets for the BAARD project.
 
