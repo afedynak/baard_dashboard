@@ -1,4 +1,4 @@
-## Overview
+## BAARD Dashboard Overview
 
 An interactive dashboard used to support decision making in the development and evaluation of the BAARD tool.
 
