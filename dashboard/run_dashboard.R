@@ -211,7 +211,7 @@ df <- read.csv("/Users/afedynak/dashboard/data/MADRS_Longitudinally_20230711.csv
 df$madrs_date <- lubridate::mdy(df$madrs_date)
 df1 <- df %>% filter(grepl('^01_Step1Baseline', df$TimePoint)) 
 df2 <- df %>% filter(grepl('^03_Step1Wk10', df$TimePoint)) 
-df3 <- df1 %>% inner_join(df2, by = "ID", relationship = "many-to-many")
+df3 <- df1 %>% inner_join(df2, by = "ID")
 df3 <- df3 %>% distinct() %>%
   mutate(Total_Days = as.numeric(difftime(ymd(Date2),  ymd(Date1), units = "days")))
 colnames(df3) <- c("PatientID", "Timepoint1", "Date1", "Score1", "Timepoint2", "Date2", "Score2", "Site")
