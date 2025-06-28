@@ -17,13 +17,15 @@ An interactive dashboard used to support decision making in the development and 
 
 🔗 https://github.com/afedynak/baard_dashboard
 
-### Data Modelling Code Repository
-This repository contains scripts for implementing modelling approaches for the BAARD project.
-
-🔗 https://github.com/afedynak/baard_modelling
-
 ### Data Analysis Code Repository
 
 All scripts and code utilized in the processing, harmonization, and analysis of multi-modal datasets for the BAARD project.
 
 🔗 https://github.com/afedynak/baard_study_TRLLD
+
+### Data Modelling Code Repository
+
+This repository contains scripts for implementing modelling approaches for the BAARD project.
+
+🔗 https://github.com/afedynak/baard_modelling
+
