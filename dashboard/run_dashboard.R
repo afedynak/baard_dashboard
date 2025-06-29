@@ -147,8 +147,6 @@ renderPlot({
 ### LA Dataset
 
 ```{r}
-library(ggplot2)
-library(plotly)
       myplot <- ggplot(data=df_list$LA, aes(x=madrs_date, y=ID, colour=TimePoint)) +
       scale_x_date(date_breaks = "1 month", date_labels = "%b %Y") +
       geom_point(size=2) + theme_minimal() +
@@ -161,8 +159,6 @@ library(plotly)
 ### UP Dataset
 
 ```{r}
-library(ggplot2)
-library(plotly)
       myplot <- ggplot(data=df_list$UP, aes(x=madrs_date, y=ID, colour=TimePoint, height=10)) +
       scale_x_date(date_breaks = "1 month", date_labels = "%b %Y") +
       geom_point(size=2) + theme_minimal() +
@@ -175,8 +171,6 @@ library(plotly)
 ### UT Dataset
 
 ```{r}
-library(ggplot2)
-library(plotly)
       myplot <- ggplot(data=df_list$UT, aes(x=madrs_date, y=ID, colour=TimePoint, height=10)) +
       scale_x_date(date_breaks = "1 month", date_labels = "%b %Y") +
       geom_point(size=2) + theme_minimal() +
@@ -189,8 +183,6 @@ library(plotly)
 ### WU Dataset
 
 ```{r}
-library(ggplot2)
-library(plotly)
       myplot <- ggplot(data=df_list$WU, aes(x=madrs_date, y=ID, colour=TimePoint, height=10)) +
       scale_x_date(date_breaks = "1 month", date_labels = "%b %Y") +
       geom_point(size=2) + theme_minimal() +
