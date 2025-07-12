@@ -9,6 +9,9 @@ Funded in part by the National Institute of Mental Health [grant numbers R01MH11
 NIH Project: 1UG3MH137353-01 <br>
 https://reporter.nih.gov/search/Ot-rVrV750CHAHTHP7az_A/project-details/10954667
 
+KCNI Confluence page: 
+https://kcniconfluence.camh.ca/display/BAAR/BAARD
+
 The tool is under active development. If you have questions please open github issue or email Amber.Fedynak@camh.ca.
 
 ### Dashboard Code Repository
