@@ -24,11 +24,11 @@ An interactive dashboard used to support decision making in the development and 
 
 All scripts and code utilized in the processing, harmonization, and analysis of multi-modal datasets for the BAARD project.
 
-🔗 https://github.com/afedynak/baard_study_TRLLD
+🔗 https://github.com/afedynak/baard_analysis_TRLLD
 
 ### Data Modelling Code Repository
 
 This repository contains scripts for implementing modelling approaches for the BAARD project.
 
-🔗 https://github.com/afedynak/baard_modelling
+🔗 https://github.com/afedynak/baard_modeling
 
